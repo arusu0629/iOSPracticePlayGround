@@ -35,16 +35,6 @@
 			path = SampleAPIRequest;
 			sourceTree = "<group>";
 		};
-		2F8AAF4D2CB544490064933E /* SampleAPIRequestTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SampleAPIRequestTests;
-			sourceTree = "<group>";
-		};
-		2F8AAF572CB544490064933E /* SampleAPIRequestUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SampleAPIRequestUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +65,8 @@
 		2F8AAF312CB544460064933E = {
 			isa = PBXGroup;
 			children = (
-				2F8AAF3C2CB544470064933E /* SampleAPIRequest */,
-				2F8AAF4D2CB544490064933E /* SampleAPIRequestTests */,
-				2F8AAF572CB544490064933E /* SampleAPIRequestUITests */,
 				2F8AAF3B2CB544470064933E /* Products */,
+				2F8AAF3C2CB544470064933E /* SampleAPIRequest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,9 +118,6 @@
 			dependencies = (
 				2F8AAF4C2CB544490064933E /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2F8AAF4D2CB544490064933E /* SampleAPIRequestTests */,
-			);
 			name = SampleAPIRequestTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				2F8AAF562CB544490064933E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				2F8AAF572CB544490064933E /* SampleAPIRequestUITests */,
 			);
 			name = SampleAPIRequestUITests;
 			packageProductDependencies = (

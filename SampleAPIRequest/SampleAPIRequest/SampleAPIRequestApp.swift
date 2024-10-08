@@ -11,7 +11,11 @@ import SwiftUI
 struct SampleAPIRequestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostListView(
+                viewModel: PostListViewModel(
+                    useCase: GetPostsInteractor()
+                )
+            )
         }
     }
 }
